@@ -24,6 +24,6 @@ Analyzed customer purchase behavior and product performance from an e-commerce d
 Pivot Tables, Nested-IFs, INDEX-MATCH, Conditional Formatting
 #### **Dataset Source:**
 [🔗Kaggle - Customer Sales Dataset](https://www.kaggle.com/datasets/atulkgoyl/customer-sale-dataset-for-visualization/data)
-### **Detailed Project Link:**
-[🔗Raw Customer Sales Dataset](https://github.com/giomusyaffa/Excel/blob/e59c96e7f3ace8633a3d397ce36aa82542416e33/Customer%20Sale%20Dataset%20for%20Visualization.csv)
+### **Project Link:**
+[🔗View Detailed Project Here](https://github.com/giomusyaffa/Excel/blob/7574f7efc7432371fca4f47c8d5555fb5e1bdc66/READMECusSalesDataset.md)
 
