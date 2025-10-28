@@ -27,3 +27,5 @@ Pivot Tables, Nested-IFs, INDEX-MATCH, Conditional Formatting
 ### **Project Link:**
 [🔗View Detailed Project Here](https://github.com/giomusyaffa/Excel/blob/7574f7efc7432371fca4f47c8d5555fb5e1bdc66/READMECusSalesDataset.md)
 
+[🔗View Detailed Project Here](https://media.istockphoto.com/id/1449580178/vector/under-construction-sign-vector-for-banner-website-ig.jpg?s=612x612&w=0&k=20&c=Eqa3KodRrtCGvMAd0Iay7K5bsNIH37zBbnLCLDPPARQ=)
+
