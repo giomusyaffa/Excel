@@ -1,6 +1,6 @@
 # Step-by-step Analysis of Customer Sales Dataset 🖥️
 ## Overview 📘
-This project analyzes customer sales data to uncover key trends, product performance, and customer behavior. The goal is to transform raw transactional data into actionable insights using Microsoft Excel’s **advanced formulas**, **Pivot Tables**, and **data visualization tools**.
+This project analyzes customer sales data to uncover key trends, product performance, and customer behavior. The goal is to transform raw transactional data into actionable insights using Microsoft Excel’s **advanced formulas**, **PivotTables**, and **data visualization tools**.
 ## Dataset Description ✍️
 - Customer Name : Buyer's name
 - Purchase Date : The date of an item sold (dd/mm/yy)
@@ -19,7 +19,7 @@ Usually when you download a dataset in a .csv format you would see something lik
 
 <img src="https://i.imgur.com/c5N23nJ.png" align= "center" height="80%" width="80%"/>
 
-To seperate it into each collumns, all you have to do is convert text to columns in the **Data** menu and choose delimeted, with *comma* as the delimiters (since the values are seperated by a comma):
+To seperate it into each columns, all you have to do is convert text to columns in the **Data** menu and choose delimeted, with *comma* as the delimiters (since the values are seperated by a comma):
 
 <img src="https://i.imgur.com/V0tu9AR.png" align= "center" height="80%" width="80%"/>
 
@@ -28,13 +28,23 @@ Finally you have your readable, ready-to-analyze data:
 <img src="https://i.imgur.com/nQbfdjy.png" align= "center" height="80%" width="80%"/>
 
 ### Step 2
-#### Pivot Tables
+#### 1. PivotTables & PivortChart
 Now, the easiest way to interpret and analyze large amounts of data without using any complicated functions is by using this interactive tool.
 
-By using **pivot tables** we can choose specific fields from our data and categorize it to each respective columns and values
+By using **PivotTables** we can choose specific fields from our data and categorize it to each respective columns and values
 
-Let's say you want to know if by discounting a product will boost sales, you can do that by selecting **product category** and **discount applied** to the rows and **quantity** to the values.
+Let's say you want to know if by discounting a product will boost sales, you can do that by selecting **Product Category** and **Discount Applied** to the rows field and **Quantity** to the values field.
 
 <img src="https://i.imgur.com/UA5YEH4.png" align= "center" height="80%" width="80%"/>
 
-As you can see from the pivot table above, a boost of sales after applying discount only happens to **books**, and **electronics** while **groceries** are unaffected and **clothing** shows a **decline** in sales.
+As you can see from the PivotTables above, a boost of sales after applying discount only happens to **books**, and **electronics** while **groceries** are unaffected and **clothing** shows a **decline** in sales.
+
+Okay, let's do another one, now this is a little complicated than before, but what if I want to see the sales pattern of each product in 6 months?
+
+You can do that by selecting **Product Category** to the Columns field, **Purchase Month** to the rows field, and **Quantity** to the values field. And the PivotTables would look like this:
+
+<img src="https://i.imgur.com/xsLDn95.png" align= "center" height="80%" width="80%"/>
+
+To better visualize this data you can also add an integrated chart from this data using PivotChart: 
+
+<img src="https://i.imgur.com/t0weIF1.png" align= "center" height="80%" width="80%"/>
