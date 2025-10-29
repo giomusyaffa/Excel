@@ -3,7 +3,7 @@
 This repository showcases a collection of my data analysis and visualization projects built using Microsoft Excel.  
 Each project focuses on applying **data cleaning, advanced formulas, pivot tables, dashboards, and storytelling through data**.
 
-## Objectives 🎯
+### Objectives 🎯
 - Demonstrate my ability to **analyze raw datasets** and turn them into meaningful insights.  
 - Showcase skills in **data visualization**, **Excel automation**, and **business decision support**.  
 - Highlight how Excel can still serve as a powerful tool for **data analytics** and **business intelligence**.
@@ -17,14 +17,14 @@ Each project focuses on applying **data cleaning, advanced formulas, pivot table
 - Dataset Sourcing from **Kaggle** and other open data platforms
 
 ### Projects 📁
-### Customer Sales Analysis 🏪
-**Description**
+#### 1. Customer Sales Analysis 💰
+##### **Description**
 Analyzed customer purchase behavior and product performance from an e-commerce dataset to identify top-selling items, customer retention trends, and revenue patterns.
-#### **Key Excel Features Used:**  
+##### **Key Excel Features Used:**  
 Pivot Tables, Nested-IFs, INDEX-MATCH, Conditional Formatting
-#### **Dataset Source:**
+##### **Dataset Source:**
 [🔗Kaggle - Customer Sales Dataset](https://www.kaggle.com/datasets/atulkgoyl/customer-sale-dataset-for-visualization/data)
-### **Project Link:**
+##### **Project Link:**
 [🔗View Detailed Project Here](https://github.com/giomusyaffa/Excel/blob/7574f7efc7432371fca4f47c8d5555fb5e1bdc66/READMECusSalesDataset.md)
 
 
