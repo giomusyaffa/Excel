@@ -25,7 +25,7 @@ Pivot Tables, Nested-IFs, INDEX-MATCH, Conditional Formatting
 ##### **Dataset Source:**
 [🔗Kaggle - Customer Sales Dataset](https://www.kaggle.com/datasets/atulkgoyl/customer-sale-dataset-for-visualization/data)
 ##### **Project Link:**
-[🔗View Detailed Project Here](https://github.com/giomusyaffa/Excel/blob/7574f7efc7432371fca4f47c8d5555fb5e1bdc66/READMECusSalesDataset.md)
+[🔗View Detailed Project Here](https://github.com/giomusyaffa/Excel/blob/main/READMECusSalesDataset.md)
 
 
 
