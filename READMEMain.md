@@ -1,4 +1,4 @@
-# Excel Data Analytics Protfolio 📊
+# Excel Data Analytics Portfolio 📊
 ## Welcome to my **Excel Projects Portfolio!**
 This repository showcases a collection of my data analysis and visualization projects built using Microsoft Excel.  
 Each project focuses on applying **data cleaning, advanced formulas, pivot tables, dashboards, and storytelling through data**.
