@@ -15,5 +15,15 @@ This project analyzes customer sales data to uncover key trends, product perform
 #### **Transforming raw data**
 The first step in analyzing a data, especially when aqcuiring it from an open source data like **Kaggle** is to transform the raw data.
 
-Usually when you download a dataset in a csv. format you would get something like this :
-<img src="https://i.imgur.com/c5N23nJ.png" height="80%" width="80%"/>
+Usually when you download a dataset in a .csv format you would see something like this:
+
+<img src="https://i.imgur.com/c5N23nJ.png" align= "center" height="80%" width="80%"/>
+
+To seperate it into each collumns, all you have to do is convert text to columns in the **Data** menu and choose delimeted, with *comma* as the delimiters (since the values are seperated by a comma):
+
+<img src="https://i.imgur.com/V0tu9AR.png" align= "center" height="80%" width="80%"/>
+
+Finally you have your readable, ready-to-analyze data:
+
+<img src="https://i.imgur.com/nQbfdjy.png" align= "center" height="80%" width="80%"/>
+
