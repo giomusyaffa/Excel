@@ -1,4 +1,4 @@
-# Step-by-step Analysis of Customer Sales Dataset 🖥️
+# Step-by-step Analysis of The Customer Sales Dataset 🖥️
 ## Overview 📘
 This project analyzes customer sales data to uncover key trends, product performance, and customer behavior. The goal is to transform raw transactional data into actionable insights using Microsoft Excel’s **advanced formulas**, **PivotTables**, and **data visualization tools**.
 ## Dataset Description ✍️
@@ -29,7 +29,7 @@ Finally you have your readable, ready-to-analyze data:
 
 ### Step 2
 #### 1. PivotTables & PivortChart
-Now, the easiest way to interpret and analyze large amounts of data without using any complicated functions is by using this interactive tool.
+The easiest way to interpret and analyze large amounts of data without using any complicated functions is by using this interactive tool.
 
 By using **PivotTables** we can choose specific fields from our data and categorize it to each respective columns and values
 
@@ -39,7 +39,7 @@ Let's say you want to know if by discounting a product will boost sales, you can
 
 As you can see from the PivotTables above, a boost of sales after applying discount only happens to **books**, and **electronics** while **groceries** are unaffected and **clothing** shows a **decline** in sales.
 
-Okay, let's do another one, now this is a little complicated than before, but what if I want to see the sales pattern of each product in 6 months?
+Okay, let's do another one, now this is a little complicated than before, but what if you want to see the sales pattern of each product in 6 months?
 
 You can do that by selecting **Product Category** to the Columns field, **Purchase Month** to the rows field, and **Quantity** to the values field. And the PivotTables would look like this:
 
@@ -48,3 +48,28 @@ You can do that by selecting **Product Category** to the Columns field, **Purcha
 To better visualize this data you can also add an integrated chart from this data using PivotChart: 
 
 <img src="https://i.imgur.com/t0weIF1.png" align= "center" height="80%" width="80%"/>
+
+#### 2. Vlookup
+Now, before stepping into advanced formulas, let's get to know, Vlookup.
+
+This is one of the most used formulas in excel, it helps us find a certain value in one column and return a corresponding value from another column in the same row
+
+Basicaly it's like a **"search bar"** for your **data**. Let's see how this works.
+
+The equation itself will look like this:
+
+**=VLOOKUP(lookup_value, table_array, col_index_num, range_lookup)**
+
+Okay, now let's apply that equation to the spreadsheet, the first thing you gotta do is make a new column for the value you want to find, and on the next column your gonna input the equation.
+
+<img src="https://i.imgur.com/EJSqODA.png" align= "center" height="80%" width="80%"/>
+<img src="https://i.imgur.com/djnNHTZ.png" align= "center" height="80%" width="80%"/>
+
+These images above shows how Vlookup can search how much really does each customer spend in your store. 
+
+Pay attention to the formula, the **lookup_value** corresponds to the value you want to find (the "search bar"), while **table_array**  corresponds to the range of the cells you want to search, **col_index_num** is the column number for the value you want to return (in this case the final price), lastly there's the **range_lookup**, it contains two categories, **TRUE** (to find the approx. value) and **FALSE** (to find the exact value).
+
+As you can see, **K2** acts as the **"search bar"** you can type whatever name on the data and it will return the price value on the next column, let's search for Kevin Hurst, manually from the data you can find how much Kevin spends at **A22**, now by using Vlookup you can easily search for Kevin's spending:
+
+<img src="https://i.imgur.com/cQhWqMR.jpeg" align= "center" height="80%" width="80%"/>
+<img src="https://i.imgur.com/2egYrdm.png" align= "center" height="80%" width="80%"/>
