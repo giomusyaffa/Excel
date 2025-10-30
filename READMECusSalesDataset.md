@@ -1,4 +1,4 @@
-# Step-by-step Analysis of The Customer Sales Dataset 🖥️
+# Step-by-step Analysis of A Customer Sales Dataset 🖥️
 ## Overview 📘
 This project analyzes customer sales data to uncover key trends, product performance, and customer behavior. The goal is to transform raw transactional data into actionable insights using Microsoft Excel’s **advanced formulas**, **PivotTables**, and **data visualization tools**.
 ## Dataset Description ✍️
@@ -67,9 +67,25 @@ Okay, now let's apply that equation to the spreadsheet, the first thing you gott
 
 These images above shows how Vlookup can search how much really does each customer spend in your store. 
 
-Pay attention to the formula, the **lookup_value** corresponds to the value you want to find (the "search bar"), while **table_array**  corresponds to the range of the cells you want to search, **col_index_num** is the column number for the value you want to return (in this case the final price), lastly there's the **range_lookup**, it contains two categories, **TRUE** (to find the approx. value) and **FALSE** (to find the exact value).
+Pay attention to the formula, the **lookup_value** corresponds to the value you want to find (the **"search bar"**), while **table_array**  corresponds to the range of the cells you want to search, **col_index_num** is the column number for the value you want to return (in this case the final price), lastly there's the **range_lookup**, it contains two categories, **TRUE** (to find the approx. value) and **FALSE** (to find the exact value).
 
 As you can see, **K2** acts as the **"search bar"** you can type whatever name on the data and it will return the price value on the next column, let's search for Kevin Hurst, manually from the data you can find how much Kevin spends at **A22**, now by using Vlookup you can easily search for Kevin's spending:
 
 <img src="https://i.imgur.com/cQhWqMR.jpeg" align= "center" height="80%" width="80%"/>
 <img src="https://i.imgur.com/2egYrdm.png" align= "center" height="80%" width="80%"/>
+
+#### 3. Nested-IF's Function
+Diving into a more complex formula, are Nested-IF's, the function itself basically returns one value if a condition is true and another value if it's false. 
+
+There are some couple variations of IF's function you can apply to the spreadsheet to make your desireable output, one of those are combining IF's with; AND; OR; and even IF's itself. Let's see some examples:
+
+Starting from the basics, by using
+
+**=IF(logical_test, value_if_true, value_if_false)**
+
+We can track multiple purchase of a product (more than 5 items) on a single transaction
+
+<img src="https://i.imgur.com/ZuLFT8P.png" align= "center" height="80%" width="80%"/>
+<img src="https://i.imgur.com/JtY5LyL.png" align= "center" height="80%" width="80%"/>
+
+As you can see from the picture above we can easily do it by using IF function, with purchases over 5 items are flagged as **Yes**.
