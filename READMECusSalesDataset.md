@@ -74,7 +74,7 @@ As you can see, **K2** acts as the **"search bar"** you can type whatever name o
 <img src="https://i.imgur.com/cQhWqMR.jpeg" align= "center" height="80%" width="80%"/>
 <img src="https://i.imgur.com/2egYrdm.png" align= "center" height="80%" width="80%"/>
 
-#### 3. Nested-IF's Function
+#### 3. IF Function and The Derivatives
 Diving into a more complex formula, are Nested-IF's, the function itself basically returns one value if a condition is true and another value if it's false. 
 
 There are some couple variations of IF's function you can apply to the spreadsheet to make your desireable output, one of those are combining IF's with; AND; OR; and even IF's itself. Let's see some examples:
@@ -89,3 +89,34 @@ We can track multiple purchase of a product (more than 5 items) on a single tran
 <img src="https://i.imgur.com/JtY5LyL.png" align= "center" height="80%" width="80%"/>
 
 As you can see from the picture above we can easily do it by using IF function, with purchases over 5 items are flagged as **Yes**.
+
+Let's do another one, this time we integrate AND to the function, with the formula:
+
+**=IF(AND([logical1],[logical2],...); value_if_true; value_if_false)**
+
+For example, what if we want to mark if a purchase is made during a weekend AND had a discount, it's going to look like this:
+
+<img src="https://i.imgur.com/tPmETNp.png" align= "center" height="80%" width="80%"/>
+<img src="https://i.imgur.com/tIOb73j.png" align= "center" height="80%" width="80%"/>
+
+By combining **IF** with **AND** function we can easily label the purchase that check both the conditions, as shown from the picture above.
+
+Another application of IF function is **Nested-IF**, it's where an if statement is placed inside another if statement to test multiple, dependent conditions. 
+
+Next, we have **IFs** function, which basically is the same as **IF** function just with more conditions, such as this customer tiering; 
+- **Platinum** associated with customers with purchases over 8 items
+- **Gold** for over 5 items
+- **Silver** for over 2 items
+- **Bronze** for only 1 item.
+
+Which will look like this:
+
+<img src="https://i.imgur.com/12dginw.png" align= "center" height="80%" width="80%"/>
+<img src="https://i.imgur.com/r7C0rX2.png" align= "center" height="80%" width="80%"/>
+
+Another application of IF function is **Nested-IF**, it's where an if statement is placed inside another if statement to test multiple, dependent conditions. 
+
+This can be used in the spreadsheet to make a sales performance indicator, with sale over 300 are **High**, over 100 are **Medium** and less than 100 are **low**:
+
+<img src="https://i.imgur.com/JU9G4O8.png" align= "center" height="80%" width="80%"/>
+<img src="https://i.imgur.com/Zoaclq5.png" align= "center" height="80%" width="80%"/>
