@@ -1,6 +1,6 @@
 # Excel Data Analytics Portfolio 📊
 ## Welcome to my **Excel Projects Portfolio!**
-This repository showcases a collection of my data analysis and visualization projects built using Microsoft Excel.  
+This repository showcases a collection of my data analysis and visualization projects built using Microsoft Excel and data visualization using **Power BI**.  
 Each project focuses on applying **data cleaning, advanced formulas, pivot tables, dashboards, and storytelling through data**.
 
 ### Objectives 🎯
@@ -10,9 +10,7 @@ Each project focuses on applying **data cleaning, advanced formulas, pivot table
 
 ### Tools Used 🧰
 - Microsoft Excel (Pivot Tables, VLOOKUP/XLOOKUP, INDEX-MATCH, Conditional Formatting, Data Validation)  
-- Power Query for data transformation  
-- Power Pivot for building data models  
-- Data Visualization (charts, dynamic dashboards)  
+- Power BI for Data Visualization (charts, dynamic dashboards)  
 - Basic Statistical Analysis  
 - Dataset Sourcing from **Kaggle** and other open data platforms
 
