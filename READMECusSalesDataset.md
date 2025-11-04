@@ -12,8 +12,8 @@ This project analyzes customer sales data to uncover key trends, product perform
 - Purchase Day and Year : Showed as a numerical value
 - Price : Final cost of an item
 ### Step 1
-#### **Transforming raw data**
-The first step in analyzing a data, especially when acquiring it from an open source data like **Kaggle** is to transform the raw data.
+#### **Convert the .csv file**
+The first step in analyzing a data, especially when acquiring it from an open source data like **Kaggle** is to convert it into Excel.
 
 Usually when you download a dataset in a .csv format you would see something like this:
 
