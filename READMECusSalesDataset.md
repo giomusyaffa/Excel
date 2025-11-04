@@ -125,3 +125,4 @@ This can be used in the spreadsheet to make a sales performance indicator, with 
 ### Step 3
 #### Power BI
 Now, let's start visualizing the data. Using this
+![Recording 2025-11-04 143154](https://github.com/user-attachments/assets/febc3521-7d9b-4d6c-98c4-331d1b33085e)
