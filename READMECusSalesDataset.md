@@ -105,9 +105,9 @@ Another application of IF function is **Nested-IF**, it's where an if statement 
 
 Next, we have **IFs** function, which basically is the same as **IF** function just with more conditions, such as this customer tiering; 
 - **Platinum** associated with customers with purchases over 8 items
-- **Gold** for over 5 items
-- **Silver** for over 2 items
-- **Bronze** for only 1 item.
+- **Gold** associated with customers with purchases over 5 items
+- **Silver** associated with customers with purchases over 2 items
+- **Bronze** associated with customers with purchases only 1 item.
 
 Which will look like this:
 
@@ -120,3 +120,7 @@ This can be used in the spreadsheet to make a sales performance indicator, with 
 
 <img src="https://i.imgur.com/JU9G4O8.png" align= "center" height="80%" width="80%"/>
 <img src="https://i.imgur.com/Zoaclq5.png" align= "center" height="80%" width="80%"/>
+
+
+### Step 3
+#### Power BI
