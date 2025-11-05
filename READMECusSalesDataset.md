@@ -1,4 +1,4 @@
-# Step-by-step Analysis of A Customer Sales Dataset 🖥️
+# Step-by-step Analysis of The Customer Sales Dataset 🖥️
 ## Overview 📘
 This project analyzes customer sales data to uncover key trends, product performance, and customer behavior. The goal is to transform raw transactional data into actionable insights using Microsoft Excel’s **advanced formulas**, **PivotTables**, and **data visualization tools**.
 ## Dataset Description ✍️
@@ -13,7 +13,7 @@ This project analyzes customer sales data to uncover key trends, product perform
 - Price : Final cost of an item
 ### Step 1
 #### **Convert the .csv file**
-The first step in analyzing a data, especially when acquiring it from an open source data like **Kaggle** is to convert it into Excel.
+The first step in analyzing a data, especially when acquiring it from an open source data like **Kaggle** is to convert it into .xlsx format.
 
 Usually when you download a dataset in a .csv format you would see something like this:
 
@@ -31,7 +31,7 @@ Finally you have your readable, ready-to-analyze data:
 #### 1. PivotTables & PivortChart
 The easiest way to interpret and analyze large amounts of data without using any complicated functions is by using this interactive tool.
 
-By using **PivotTables** we can choose specific fields from our data and categorize it to each respective columns and values
+By using **PivotTables** you can choose specific fields from our data and categorize it to each respective columns and values
 
 Let's say you want to know if by discounting a product will boost sales, you can do that by selecting **Product Category** and **Discount Applied** to the rows field and **Quantity** to the values field.
 
@@ -75,35 +75,33 @@ As you can see, **K2** acts as the **"search bar"** you can type whatever name o
 <img src="https://i.imgur.com/2egYrdm.png" align= "center" height="80%" width="80%"/>
 
 #### 3. IF Function and The Derivatives
-Diving into a more complex formula, are Nested-IF's, the function itself basically returns one value if a condition is true and another value if it's false. 
+Diving into a more complex formula, are IF functions, the function itself basically returns one value if a condition is true and another value if it's false. 
 
-There are some couple variations of IF's function you can apply to the spreadsheet to make your desireable output, one of those are combining IF's with; AND; OR; and even IF's itself. Let's see some examples:
+There are some couple variations of IF function you can apply to the spreadsheet to make your desireable output, one of those are combining IF's with; AND; OR; and even IF's itself. Let's see some examples:
 
 Starting from the basics, by using
 
 **=IF(logical_test, value_if_true, value_if_false)**
 
-We can track multiple purchase of a product (more than 5 items) on a single transaction
+You can track multiple purchase of a product (more than 5 items) on a single transaction
 
 <img src="https://i.imgur.com/ZuLFT8P.png" align= "center" height="80%" width="80%"/>
 <img src="https://i.imgur.com/JtY5LyL.png" align= "center" height="80%" width="80%"/>
 
-As you can see from the picture above we can easily do it by using IF function, with purchases over 5 items are flagged as **Yes**.
+As you can see from the picture above You can easily do it by using IF function, with purchases over 5 items are flagged as **Yes**.
 
-Let's do another one, this time we integrate AND to the function, with the formula:
+Let's do another one, this time integrate AND to the function, with the formula:
 
 **=IF(AND([logical1],[logical2],...); value_if_true; value_if_false)**
 
-For example, what if we want to mark if a purchase is made during a weekend AND had a discount, it's going to look like this:
+For example, what if you want to mark if a purchase is made during a weekend AND had a discount, it's going to look like this:
 
 <img src="https://i.imgur.com/tPmETNp.png" align= "center" height="80%" width="80%"/>
 <img src="https://i.imgur.com/tIOb73j.png" align= "center" height="80%" width="80%"/>
 
-By combining **IF** with **AND** function we can easily label the purchase that check both the conditions, as shown from the picture above.
+By combining **IF** with **AND** function you can easily label the purchase that check both the conditions, as shown from the picture above.
 
-Another application of IF function is **Nested-IF**, it's where an if statement is placed inside another if statement to test multiple, dependent conditions. 
-
-Next, we have **IFs** function, which basically is the same as **IF** function just with more conditions, such as this customer tiering; 
+Next, are the **IFs** function, which basically is the same as **IF** function just with more conditions, such as this customer tiering; 
 - **Platinum** associated with customers with purchases over 8 items
 - **Gold** associated with customers with purchases over 5 items
 - **Silver** associated with customers with purchases over 2 items
@@ -124,5 +122,37 @@ This can be used in the spreadsheet to make a sales performance indicator, with 
 
 ### Step 3
 #### Power BI
-Now, let's start visualizing the data. Using this
+Basically, Power BI is a tool from Microsoft that helps users connect to data sources, visualize it, and share interactive reports and dashboards to gain insights.
+
+Now, let's start visualizing the data by using this interactive tool.
+
+First of all, since you already have your data in Excel, you can directly import it 
+
+![messageImage_1762327253960](https://github.com/user-attachments/assets/9c0aad19-40b6-4b95-a234-f8a7228ae354)
+
+Then choose the sheet that contains the data that you want to visualize
+
+![messageImage_1762327517279](https://github.com/user-attachments/assets/c7ec27c2-d18a-476e-9aa4-28ba7311f6dd)
+
+After loading it, go into the Power Query Editor and make sure all the fields are in the correct data type, e.g. the numeric fields (sale,quantitiy,price) are whole number.
+
+![messageImage_1762328041295](https://github.com/user-attachments/assets/89a4a0b3-7bfd-42d5-b611-59419b867bf3)
+
+Then jump into the report view and start building your dashboard. In this case let's focus on analyzing sales performance across product categories, discount impacts, and overall customer purchase trends. 
+
+The report consists of several key visuals:
+
+- Bar Chart: Sales by Product Category
+Displays the total sales for each category (Books, Clothing, Electronics, Groceries), helping identify top-performing product lines.
+
+- Line Chart: Monthly Sales Trends by Category
+Shows how sales fluctuate over time for each category, allowing for seasonal trend detection and performance tracking.
+
+- Pie Chart: Sales by Discount Application
+Compares total sales between transactions with and without discounts, providing insights into how discounts influence revenue.
+
+- KPI Card: Total Quantity Sold
+Highlights the overall number of items sold, serving as a snapshot of total product movement.
+
+
 ![Recording 2025-11-04 143154](https://github.com/user-attachments/assets/febc3521-7d9b-4d6c-98c4-331d1b33085e)
