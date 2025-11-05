@@ -26,7 +26,10 @@ Pivot Tables, Nested-IFs, INDEX-MATCH, Conditional Formatting
 [🔗View Detailed Project Here](https://github.com/giomusyaffa/Excel/blob/main/READMECusSalesDataset.md)
 ##### **Dataset Source:**
 [🔗Kaggle - Customer Sales Dataset](https://www.kaggle.com/datasets/atulkgoyl/customer-sale-dataset-for-visualization/data)
-##### **My Excel File:**
+##### **Excel File:**
 [🔗Download the .xlsx file here](https://github.com/giomusyaffa/Excel/blob/main/Dhia_Excel%20Project1.xlsx)
+##### **PowerBI File:**
+[🔗Download the .pbix file here](https://github.com/giomusyaffa/Excel/blob/f6b6358057b8b4b50a4f2326da1bdfe6d5022269/Cussaledata.pbix)
+
 
 
