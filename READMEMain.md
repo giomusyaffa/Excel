@@ -1,4 +1,4 @@
-# Excel Data Analytics Portfolio 📊
+# Excel and Power BI Portfolio 📊
 ## Welcome to my **Excel Projects Portfolio!**
 This repository showcases a collection of my data analysis and visualization projects built using Microsoft Excel and data visualization using **Power BI**.  
 
@@ -21,10 +21,11 @@ Each project focuses on applying **data cleaning, advanced formulas, pivot table
 Analyzed customer purchase behavior and product performance from an e-commerce dataset to identify top-selling items, customer retention trends, and revenue patterns.
 ##### **Key Excel Features Used:**  
 Pivot Tables, Nested-IFs, INDEX-MATCH, Conditional Formatting
-##### **Dataset Source:**
-[🔗Kaggle - Customer Sales Dataset](https://www.kaggle.com/datasets/atulkgoyl/customer-sale-dataset-for-visualization/data)
+
 ##### **Project Link:**
 [🔗View Detailed Project Here](https://github.com/giomusyaffa/Excel/blob/main/READMECusSalesDataset.md)
+##### **Dataset Source:**
+[🔗Kaggle - Customer Sales Dataset](https://www.kaggle.com/datasets/atulkgoyl/customer-sale-dataset-for-visualization/data)
 ##### **My Excel File:**
 [🔗Download the .xlsx file here](https://github.com/giomusyaffa/Excel/blob/main/Dhia_Excel%20Project1.xlsx)
 
